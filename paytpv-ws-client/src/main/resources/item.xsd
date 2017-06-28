@@ -1,0 +1,32 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:byte" name="PAYTPV_ERROR_ID"/>
+        <xs:element type="xs:int" name="PAYTPV_OPERATION_ID"/>
+        <xs:element type="xs:long" name="PAYTPV_OPERATION_TIMESTAMP"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_REFERENCE"/>
+        <xs:element type="xs:byte" name="PAYTPV_OPERATION_OPERATION"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_OPERATIONNAME"/>
+        <xs:element type="xs:byte" name="PAYTPV_OPERATION_STATE"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_STATENAME"/>
+        <xs:element type="xs:short" name="PAYTPV_OPERATION_TERMINAL"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_TERMINALNAME"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_PAN"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_USER"/>
+        <xs:element type="xs:short" name="PAYTPV_OPERATION_AMOUNT"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_CURRENCY"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_AMOUNTDISPLAY"/>
+        <xs:element type="xs:byte" name="PAYTPV_OPERATION_ERRORID"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_ERRORDESC"/>
+        <xs:element type="xs:byte" name="PAYTPV_OPERATION_FEEEURO"/>
+        <xs:element type="xs:byte" name="PAYTPV_OPERATION_FEEPERCENT"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_IP"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_CARDBRAND"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_BICCODE"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_SCORING"/>
+        <xs:element type="xs:string" name="PAYTPV_OPERATION_AUTHCODE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,16 @@
+<assembly>
+	<id>paytpv-generated-xmlbeans</id>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<formats>
+		<format>jar</format>
+	</formats>
+	<fileSets>
+		<fileSet>
+			<directory>${project.basedir}/target/generated-sources</directory>
+			<outputDirectory>/</outputDirectory>
+			<includes>
+				<include>**/*.class</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+</assembly>
