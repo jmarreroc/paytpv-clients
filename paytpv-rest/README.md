@@ -1,5 +1,8 @@
 # PAYTPV REST API 
 
+## Description
+Simple java rest client to consume 'paytpv-ws-client'.
+
 ## Requirements
 mvn version >= 3.1.1
 Java >= 6
@@ -10,7 +13,7 @@ Tomcat >= 5.0
 
 ## Testing
 - Startup Tomcat server with war deployed
-- check http://<host>:<port>/paytpv-rest/api/version URL
+- check the URL: http://<host>:<port>/paytpv-rest/api/version
  
 
 ## Example for developers:

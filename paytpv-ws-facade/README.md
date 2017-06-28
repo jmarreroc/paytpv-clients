@@ -1,4 +1,7 @@
 # PAYTPV WEB SERVICE FACADE 
+
+## Description
+Simple java facade for more customer-friendly consumption.
  
 ## Requirements 
 - Maven version installed >= 3.2.5
