@@ -1,7 +1,8 @@
 # PAYTPV CLIENTS
 
 ## About
-These are a free distributable api clients to consume PAYTPV payment service
+These are free distributable api clients to consume PAYTPV search_operations web service (https://secure.paytpv.com/gateway/xml-operations?wsdl).
+More info about integration, account service and secure payment in http://developers.paytpv.com/
 
 ## Modules
 - paytpv-ws-client: axis2 web service client for https://secure.paytpv.com/gateway/xml-operations?wsdl
